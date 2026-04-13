@@ -39,7 +39,7 @@ Proyek (dengan detail):
    - Dataset: 3000 komentar TikTok
 
 3. Wildlife Animal Detection
-   - Model: YOLOv8, 14 spesies satwa liar endemik Jawa
+   - Model: YOLOv11X, 14 spesies satwa liar endemik Jawa
    - Lokasi: Taman Buru Gunung Masigit Kareumbi
    - Performa: mAP50 99.3%, mAP50-95 89.9%, Precision 98.5%
    - Dataset: 2941 gambar camera trap
