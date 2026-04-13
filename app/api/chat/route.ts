@@ -17,7 +17,7 @@ Informasi tentang Sulthon:
 
 Skill utama:
 - Machine Learning & Deep Learning (Scikit-learn, PyTorch, TensorFlow)
-- Computer Vision (YOLOv8, CNN)
+- Computer Vision (YOLO, CNN)
 - NLP & Sentiment Analysis (Sastrawi, NLTK)
 - Backend: FastAPI, Flask, Django
 - Frontend: Next.js, Flutter
