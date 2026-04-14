@@ -526,11 +526,10 @@ export default function Home() {
                 problems into elegant solutions.
               </p>
               <p>
-                Beyond technical work, I am deeply passionate about
-                organizational activities and committed to developing the
-                essential skills of a great leader. I believe that driving
-                innovation requires not just powerful technology, but also
-                strong, visionary leadership.
+                Beyond technical work, I am a disciplined and persistent person
+                with a visionary mindset — always eager to grow and explore new
+                things. I believe that continuous learning is the foundation of
+                meaningful innovation.
               </p>
               <div className="btn-box" style={{ marginTop: "28px" }}>
                 <a href="#contact" className="btn-primary">
