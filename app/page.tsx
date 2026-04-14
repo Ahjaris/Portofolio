@@ -345,7 +345,9 @@ export default function Home() {
           email: formData.email,
           message: formData.message,
         },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string,
+        {
+          publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string,
+        },
       );
       setSent(true);
       setFormData({ name: "", email: "", message: "" });
