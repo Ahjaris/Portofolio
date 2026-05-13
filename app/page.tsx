@@ -529,7 +529,7 @@ export default function Home() {
               </p>
               <p>
                 Beyond technical work, I am a disciplined and persistent person
-                with a visionary mindset — always eager to grow and explore new
+                with a visionary mindset, always eager to grow and explore new
                 things. I believe that continuous learning is the foundation of
                 meaningful innovation.
               </p>
@@ -821,7 +821,7 @@ export default function Home() {
           <div className="contact-info">
             <p>
               Looking for an intern, collaborator, or just want to say hi? Feel
-              free to reach out — I&apos;m always open to new opportunities,
+              free to reach out. I&apos;m always open to new opportunities,
               interesting projects, and meaningful conversations.
             </p>
             {contactItems.map((item) => (
