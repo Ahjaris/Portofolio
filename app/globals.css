@@ -53,6 +53,8 @@ body {
   font-weight: 800;
   color: var(--accent);
   letter-spacing: -0.5px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .logo span { color: white; }

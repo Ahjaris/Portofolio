@@ -4,15 +4,15 @@ import "./globals.css";
 import { ReactNode, useEffect, useState } from "react";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
-  const [scrolled, setScrolled]   = useState(false);
-  const [menuOpen, setMenuOpen]   = useState(false);
-  const [active,   setActive]     = useState("home");
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [active, setActive] = useState("home");
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
 
-      const sections  = document.querySelectorAll("section[id]");
+      const sections = document.querySelectorAll("section[id]");
       let current = "home";
       sections.forEach((sec) => {
         const top = (sec as HTMLElement).offsetTop - 120;
@@ -31,9 +31,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body>
         <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
-          <div className="logo">
+          <a href="#home" className="logo">
             Portofolio<span></span>
-          </div>
+          </a>
 
           {/* Desktop + Mobile nav */}
           <nav className={menuOpen ? "open" : ""}>
@@ -67,7 +67,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {children}
 
         <footer>
-          <p>© 2026 <span>Ahmad Sulthon Jauhari</span>. All rights reserved.</p>
+          <p>
+            © 2026 <span>Ahmad Sulthon Jauhari</span>. All rights reserved.
+          </p>
         </footer>
       </body>
     </html>
